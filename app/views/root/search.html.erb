@@ -1,0 +1,7 @@
+<h1>Results</h1>
+
+<% @results.each do |b| %>
+	<p>
+		<strong><%= b['name'] %></strong> (<%= link_to b['source'], b['source_url'] %>)<br />
+	</p>
+<% end %>
