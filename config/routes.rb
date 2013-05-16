@@ -1,7 +1,7 @@
 Slowwing::Application.routes.draw do
   
   root :to => 'root#index'
-  post 'search' => 'root#search', :as=>'search'
+  get 'search' => 'root#search', :as=>'search'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
