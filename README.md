@@ -1,12 +1,12 @@
 Slowwing
 ========
 
-Slowwing is a sister project of [quickwing](https://github.com/wukerplank/quickwing). This is the naive implementation of a website that enables you to search Foursquare and Yelp! for places to eat, drink and meet. The search process will be quite slow as the APIs will be polled sequentially and their response times are close to one second - sometimes even longer.
+Slowwing is a sister project of [Quickwing](https://github.com/wukerplank/quickwing). This is the "naive" implementation of a website that enables you to search Foursquare and Yelp! for places to eat, drink and meet. The search process will be quite slow as the APIs will be polled sequentially and their response times are close to one second - sometimes even longer.
 
 Installation
 ------------
 
-If you want to run this app you will need to have Ruby (>=1.8.7), RubyGems, Bundler and RabbitMQ installed.
+If you want to run this app you will need to have Ruby (>=1.8.7), RubyGems and Bundler installed.
 
 You can either download a ZIP package or clone the whole repository:
 
@@ -27,7 +27,7 @@ If you don't have API keys you can register here:
 
 Edit the `config/application.yml` file and enter your keys.
 
-Make sure your RabbitMQ server is running and start the Rails app:
+Now start the Rails app:
 
     rails s
 
